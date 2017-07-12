@@ -124,7 +124,7 @@ function calculateSmallPriceTotalPrice(completedItemSheet)
 
 
 
-// 5.汇总的收据数组转为对象
+// 6.汇总的收据数组转为对象
 function turnArraytoObject(SmallPriceTotalPrice)
 {
   var singleItem = '';
@@ -141,7 +141,7 @@ function turnArraytoObject(SmallPriceTotalPrice)
 
 
 
-// 6.打印收据
+// 7.打印收据
 function printReceipt(ItemSheetObj)
 {
   return `***<没钱赚商店>收据***
